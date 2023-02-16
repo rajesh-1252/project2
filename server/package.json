@@ -1,0 +1,41 @@
+{
+  "name": "recipemanagementsystem",
+  "version": "1.0.0",
+  "description": "Final Year Project",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dharan0512/RecipeManagementSystem.git"
+  },
+  "author": "Dharani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dharan0512/RecipeManagementSystem/issues"
+  },
+  "homepage": "https://github.com/Dharan0512/RecipeManagementSystem#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^6.0.4",
+    "helmet": "^5.0.1",
+    "http-status-codes": "^2.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1"
+  }
+}
