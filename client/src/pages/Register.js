@@ -20,7 +20,7 @@ function Register() {
   const navigate = useNavigate();
   console.log(user);
   useEffect(() => {
-    if (user) {
+    if (user || user === undefined) {
       setTimeout(() => {
         navigate("/");
       }, 1000);
